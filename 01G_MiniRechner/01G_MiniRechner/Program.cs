@@ -10,12 +10,12 @@ namespace _01G_MiniRechner
         static void Main(string[] args)
         {
             Int64 Ergebnis,Zahl1,Zahl2;
-            Console.Write("Addition\n\n");
+            Console.Write("Subtrahieren (1.Z-2.Z)\n\n");
             Console.WriteLine("Geben Sie die 1. Zahl ein:\n");
             Zahl1= Convert.ToInt64(Console.ReadLine());
             Console.WriteLine("\nGeben Sie die 2. Zahl ein:\n");
             Zahl2 = Convert.ToInt64(Console.ReadLine());
-            Ergebnis = Zahl1 + Zahl2;
+            Ergebnis = Zahl1 - Zahl2;
             Console.WriteLine("\nDas Ergebnis ist = {0} ",Ergebnis);
             Console.ReadKey();
         }
